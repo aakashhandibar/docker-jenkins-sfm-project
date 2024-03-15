@@ -5,8 +5,6 @@ RUN git clone https://github.com/aakashhandibar/Stock-Forecasting-Master-Draft-m
 RUN pip3 install -r requirements.txt
 RUN pip3 install tensorflow --no-cache-dir
 
-COPY . .
-
 EXPOSE 8501
 
 ENTRYPOINT [ "streamlit", "run" ]
