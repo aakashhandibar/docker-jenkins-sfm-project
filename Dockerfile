@@ -1,5 +1,7 @@
 FROM python:3
 
+WORKDIR /Stock-Forecasting-Master-Draft-main
+
 RUN git clone https://github.com/aakashhandibar/Stock-Forecasting-Master-Draft-main.git
 
 RUN pip3 install -r requirements.txt
