@@ -1,0 +1,12 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8501
+
+2024-03-15 09:27:27.785365: I external/local_tsl/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-03-15 09:27:28.098416: I external/local_tsl/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-03-15 09:27:28.674396: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-15 09:27:31.367915: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+docker: Error response from daemon: driver failed programming external connectivity on endpoint crazy_lamarr (c98db206d9f6c4be553a951387f9610b4d888d58ebb3ff489472143634167c0c): Bind for 0.0.0.0:8501 failed: port is already allocated.
+  Stopping...
