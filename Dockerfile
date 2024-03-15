@@ -1,5 +1,7 @@
 FROM python:3
 
+WORKDIR /Stock-Forecasting-Master-Draft-main
+
 RUN git clone https://github.com/aakashhandibar/Stock-Forecasting-Master-Draft-main.git
 
 COPY requirements.txt /Stock-Forecasting-Master-Draft-main/requirements.txt
