@@ -1,13 +1,8 @@
 FROM python:3
-RUN pip3 install streamlit
-RUN pip3 install pandas
-RUN pip3 install yfinance
-RUN pip3 install scikit-learn
-RUN pip3 install pybase64
-RUN pip3 install scipy
-RUN pip3 install numpy
-RUN pip3 install keras
-RUN pip3 install matplotlib
+
+RUN git clone https://github.com/aakashhandibar/Stock-Forecasting-Master-Draft-main.git
+
+RUN pip3 install -r requirements.txt
 RUN pip3 install tensorflow --no-cache-dir
 
 COPY . .
